@@ -13,6 +13,10 @@ selector {
     padding: 0;
 }
 
+.formio-error-wrapper .formio-errors .error {
+    display: none;
+}
+
 .btn-wizard-nav-next {
     font-family: "Fira Sans", Sans-serif !important;
     font-size: 20px !important;

@@ -1,0 +1,166 @@
+selector {
+    min-height: 450px;
+}
+
+/*.test {*/
+/*    width: 70%;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+.btn-wizard-nav-next {
+    font-family: "Fira Sans", Sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    background-color: #FF4D6B !important;
+    padding: 10px 20px 10px 20px !important;
+    border-radius: 30px 30px 30px 30px !important;
+    border-color: #ffffff  !important;
+}
+
+.btn-wizard-nav-cancel {
+    font-family: "Fira Sans", Sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    color: #382159 !important;
+    background-color: #ffffff !important;
+    padding: 10px 20px 10px 20px !important;
+    border-radius: 30px 30px 30px 30px !important;
+    border-color: #ffffff  !important;
+}
+
+.btn-wizard-nav-previous{
+    font-family: "Fira Sans", Sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    background-color: #FF4D6B !important;
+    padding: 10px 20px 10px 20px !important;
+    border-radius: 30px 30px 30px 30px !important;
+    border-color: #ffffff  !important;
+}
+
+.btn-wizard-nav-submit{
+    font-family: "Fira Sans", Sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    color: #382159 !important;
+    background-color: #DCF763 !important;
+    padding: 10px 20px 10px 20px !important;
+    border-radius: 30px 30px 30px 30px !important;
+    border-color: #ffffff  !important;
+}
+
+.active .page-link{
+   font-family: "Fira Sans", Sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important; 
+    color: #ffffff !important;
+    background-color: #382159 !important;
+    border-color: #382159  !important;
+}
+
+.page-link{
+    font-family: "Fira Sans", Sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important; 
+    color: #382159 !important;
+    background-color: #ffffff !important;
+    border-color: #382159  !important;
+}
+
+.page-link:hover {
+    color: #ffffff !important;
+    background-color: #382159 !important;
+    border-color: #382159  !important;
+}
+
+.pagination{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    pointer-events: none;
+}
+
+.formio-wizard-nav-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 64%;
+}
+
+.radio{
+    font-weight: 300 !important;
+    font-size: 16px !important;
+    line-height: 2.5 !important;
+}
+
+.form-check-input{
+    margin-top: 5px !important;
+}
+
+p.formtext{
+    max-width: 100% !important;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.confirmbutton {
+    width: 60% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alert.alert-danger{
+    display:none !important;
+}
+
+.question-layout{
+    max-width: 60% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wizard-page >.lquestion-layout.form-group{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.wizard-page > .form-group { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.wizard-page > .formtext { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+ul{
+    justify-content: center !important;
+}
+
+span{
+    line-height: 24px;
+}
+
+.formio-error-wrapper{
+    background-color: #f8f9fa !important;
+}
+
+.header-text{
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 60%;*/
+    font-weight: 300 !important;
+    font-size: 16px !important;
+}

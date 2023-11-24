@@ -1,7 +1,3 @@
-selector {
-    min-height: 450px;
-}
-
 /*.test {*/
 /*    width: 70%;*/
 /*    margin-left: auto;*/
@@ -9,12 +5,47 @@ selector {
 /*    margin-top: 20px;*/
 /*}*/
 
-.formio-error-wrapper, .formio-warning-wrapper {
-    padding: 0;
+selector {
+    min-height: 450px;
 }
 
-.formio-error-wrapper .formio-errors .error {
-    display: none;
+.formio-error-wrapper, .formio-warning-wrapper {
+    padding: 0 !important;
+}
+
+.formio-errors .error {
+    /*display: none !important;*/
+    color: #ff5b6b !important;
+}
+
+.first-name-field > .formio-errors .error {
+    display: none !important;
+}
+
+.last-name-field > .formio-errors .error {
+    display: none !important;
+}
+
+.role-field > .formio-errors .error {
+    display: none !important;
+}
+
+.organisation-field > .formio-errors .error {
+    display: none !important;
+}
+
+.country-field > .formio-errors .error {
+    display: none !important;
+}
+
+.has-error, .formio-error-wrapper {
+    color: #382159 !important;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    
+    background-color: #f4bac4!important;
+    
 }
 
 .btn-wizard-nav-next {
@@ -168,7 +199,8 @@ span{
 .header-text{
     margin-left: auto;
     margin-right: auto;
-    /*width: 60%;*/
     font-weight: 300 !important;
     font-size: 16px !important;
 }
+/*width: 60%;*/
+
